@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Lesson9.SalesTxn09;
+
+import java.util.List;
+import java.util.function.Function;
+
+/**
+ *
+ * @author Jaco
+ */
+public class A03Function {
+  
+  public static void main(String[] args){ 
+
+    List<SalesTxn> tList = SalesTxn.createTxnList();
+    SalesTxn first = tList.get(0);
+        
+    Function<SalesTxn, String> buyerFunction = 
+        t -> t.getBuyerName();
+    
+    System.out.println("\n== First Buyer");
+    System.out.println(buyerFunction.apply(first));      
+  }
+}

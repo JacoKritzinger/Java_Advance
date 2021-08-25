@@ -21,7 +21,11 @@ public final class PeerSingleton {
     }
     
    private static final PeerSingleton instance = new
-    PeerSingleton();
-    
+    PeerSingleton();    
+
+    public static PeerSingleton getInstance() {
+        return instance;
+    }
     
 }
+ 

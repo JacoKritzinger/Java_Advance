@@ -1,16 +1,17 @@
 package Q6_2InterfaceBanking;
 
 
-public class SavingsAccount extends Account{
+public class SavingsAccount extends Account implements AccountOperations {
      Double rateofinterest=0.06;
 
     public SavingsAccount(double balance) {
         super(balance);
+    } 
+    
+    @Override
+    public double getBalance() {
+        return balance;
     }
-
-    
-    
- 
     
 
     @Override
@@ -22,18 +23,23 @@ public class SavingsAccount extends Account{
             return false;
         }
     }
-
     
-     @Override
+       
+    @Override
      public void  deposit(double amount) {
        balance += amount;
-       balance +=balance * rateofinterest;
+       balance += balance * rateofinterest;
        
         }
-    
+    @Override
+    public String toString() {
+        return this.getDescription() +" balance is " + balance;
+    }
+
     @Override
     public String getDescription() {
         return "Savings Account";
     }
     
 }
+

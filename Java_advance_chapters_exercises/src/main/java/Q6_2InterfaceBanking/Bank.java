@@ -1,6 +1,6 @@
 package Q6_2InterfaceBanking;
 
-public class Bank {
+public class Bank implements BankOperations{
 
     private Customer[] customers;
     private int numberOfCustomers;

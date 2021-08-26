@@ -13,7 +13,8 @@ public class LambdaTest {
     System.out.println("==Contains==");
     stringTool.showResult(strList01, searchStr, 
       (t,s) -> t.contains(s));
-
+   
+ 
     System.out.println("==Starts With==");
     stringTool.showResult(strList01, searchStr, 
       (t,s) -> t.startsWith(s));
@@ -23,12 +24,16 @@ public class LambdaTest {
       (t,s) -> t.equals(s));    
     
     System.out.println("==Ends With==");
+    stringTool.showResult(strList01, searchStr, 
+    (t,s) -> t.endsWith(s));
     // Your code here
     
     System.out.println("==Less than 5==");
-    // Your Code here
+    stringTool.showResult(strList01, searchStr,
+    (t,s) -> t.contains(s) && t.length() < 5);
     
     System.out.println("==Greater than 5==");
-    // Your code here
+    stringTool.showResult(strList01, searchStr,
+    (t,s) -> t.contains(s) && t.length() < 5);
   }    
 }

@@ -1,4 +1,4 @@
-package Q8_2;
+package Q8_2EmployeeSearch;
 
 import java.util.List;
 import java.util.function.Predicate;

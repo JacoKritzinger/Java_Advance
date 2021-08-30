@@ -1,4 +1,4 @@
-package Q8_2;
+package Q8_2EmployeeSearch;
 
 import java.util.List;
 import java.util.function.Predicate;
@@ -18,5 +18,9 @@ public class RoboMailTest01 {
     System.out.println("\n=== Sales Execs");
     
     // roboMail Sales Executives
+    pl.stream()
+      .filter(p -> p.getRole().equals(Role.EXECUTIVE))
+      .filter(p -> p.getDept().equals("Sales"))
+      .forEach(p -> robo.roboMail(p));    
   }
 }

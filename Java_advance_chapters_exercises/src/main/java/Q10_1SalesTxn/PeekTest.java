@@ -1,4 +1,4 @@
-package Q10_1;
+package Q10_1SalesTxn;
 
 import java.util.List;
 import java.util.function.Consumer;

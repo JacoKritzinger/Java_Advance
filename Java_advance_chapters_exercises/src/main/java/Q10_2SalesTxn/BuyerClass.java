@@ -1,4 +1,4 @@
-package Q10_1;
+package Q10_2SalesTxn;
 
 /**
  *

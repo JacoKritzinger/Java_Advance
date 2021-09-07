@@ -1,4 +1,4 @@
-package com.example.lambda;
+package Q14_2LambdaDirectory;
 
 /**
  *

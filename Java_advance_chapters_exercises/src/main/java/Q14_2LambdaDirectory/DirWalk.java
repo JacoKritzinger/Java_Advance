@@ -1,4 +1,4 @@
-package com.example.lambda;
+package Q14_2LambdaDirectory;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,12 +11,11 @@ import java.util.stream.Stream;
  * @author oracle
  */
 public class DirWalk {
-  public static void main(String[] args) {  
-/* Remove Comments
-    try{// Add try with resources here
+  public static void main(String[] args) {        
+    try(Stream<Path> files = Files.walk(Paths.get("."))){
 
         System.out.println("\n=== Dir walk ===");
-        // Print directory list here  
+        files.forEach(line -> System.out.println(line));  
 
     }catch (IOException e){
         System.out.println("Error: " + e.getMessage());
@@ -32,6 +31,7 @@ public class DirWalk {
     }catch (IOException e){
         System.out.println("Error: " + e.getMessage());
     }
-*/  
+  
   } 
 }
+

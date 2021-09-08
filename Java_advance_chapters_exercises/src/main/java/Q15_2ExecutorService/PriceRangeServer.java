@@ -1,4 +1,4 @@
-package com.example.server;
+package Q15_2ExecutorService;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

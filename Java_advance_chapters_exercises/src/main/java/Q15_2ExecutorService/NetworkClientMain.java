@@ -1,4 +1,4 @@
-package com.example.client;
+package Q15_2ExecutorService;
 
 import java.io.IOException;
 import java.net.Socket;

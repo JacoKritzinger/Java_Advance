@@ -1,4 +1,4 @@
-package com.example.client;
+package Q15_2ExecutorService;
 
 import java.util.Objects;
 

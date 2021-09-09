@@ -1,5 +1,9 @@
-package com.example.lambda;
+package Q17_3SalesTxn;
 
+import Q17_1SalesTxn.TaxRate;
+//import Q17_1SalesTxn.SalesTxn;
+import Q17_1SalesTxn.State;
+import Q17_1SalesTxn.BuyerClass;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;

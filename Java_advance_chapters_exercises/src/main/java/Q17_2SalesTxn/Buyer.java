@@ -1,5 +1,6 @@
-package com.example.lambda;
+package Q17_2SalesTxn;
 
+import Q17_1SalesTxn.BuyerClass;
 import java.util.HashMap;
 import java.util.Map;
 

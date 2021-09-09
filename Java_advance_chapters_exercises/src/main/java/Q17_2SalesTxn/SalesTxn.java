@@ -1,4 +1,4 @@
-package com.example.lambda;
+package Q17_2SalesTxn;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

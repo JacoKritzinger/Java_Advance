@@ -3,7 +3,7 @@ package academy.javaprogramming;
 public class Main {
 
 
-//    1.
+//      1.
 //        public static long toMilesPerHour(double kilometersPerHour){
 //            if (kilometersPerHour < 0){
 //                return -1;
@@ -20,7 +20,7 @@ public class Main {
 //            }
 //        }
 //    }
-//2.
+//      2.
 //    public static void printMegaBytesAndKiloBytes(int kiloBytes) {
 //        if (kiloBytes > 0) {
 //            double remainder = kiloBytes % 1024;
@@ -34,13 +34,45 @@ public class Main {
 
 //    3.
 
-    public static boolean shouldWakeUp(boolean barking, int hourOfDay) {
-        if (hourOfDay < 0 || hourOfDay > 23){
-            return false;
-        }
-        else if ((barking) && (hourOfDay < 8 || hourOfDay > 22)){
-            return true;
-        }
-        return false;
-    }
-}
+//    public static boolean shouldWakeUp(boolean barking, int hourOfDay) {
+//        if (hourOfDay < 0 || hourOfDay > 23){
+//            return false;
+//        }
+//        else if ((barking) && (hourOfDay < 8 || hourOfDay > 22)){
+//            return true;
+//        }
+//        return false;
+//    }
+//}
+
+//    4.
+//    public static boolean isLeapYear(int year) {
+//        if (year >= 1 && year <= 9999) {
+//            if ((year % 4) == 0) {
+//                if ((year % 100) == 0) {
+//                    if ((year % 400) == 0) {
+//                        return true;
+//                    }
+//                } else {
+//                    return true;
+//                }
+//            }
+//
+//        }
+//        return false;
+//    }
+//}
+//      5.
+//    public static boolean areEqualByThreeDecimalPlaces(double num1, double num2) {
+//
+//        int num11 = (int)(num1 * 1000);
+//        int num22 = (int)(num2 * 1000);
+//
+//        if(num11 == num22){
+//            return true;
+//        }
+//        return false;
+//
+//    }
+//
+//}

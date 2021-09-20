@@ -76,3 +76,29 @@ public class Main {
 //    }
 //
 //}
+
+//        6.
+
+//    public static boolean hasEqualSum(int num1, int num2, int num3) {
+//        if ((num1 + num2) == num3) {
+//            return true;
+//        }
+//        return false;
+//    }
+//}
+
+
+
+
+//        7.
+//
+//    public static boolean hasTeen(int a, int b, int c) {
+//        return ((13 <= a && a <= 19)
+//                || (13 <= b && b <= 19) ||
+//                (13 <= c && c <= 19));
+//    }
+//
+//    public static boolean isTeen(int a) {
+//        return (13 <= a && a <= 19);
+//    }
+//}

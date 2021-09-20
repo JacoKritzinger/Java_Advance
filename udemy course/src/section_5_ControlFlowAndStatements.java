@@ -2,8 +2,9 @@
 
 public class section_5_ControlFlowAndStatements {
 
-    public static void main(String[] args) {
-
+//    public static void main(String[] args) {
+//        challange video 64
+//
 //        int value = 3;
 //        if(value == 1) {
 //            System.out.println("Value was 1");
@@ -13,7 +14,7 @@ public class section_5_ControlFlowAndStatements {
 //            System.out.println("Value was not 1 or 2");
 //
 //        }
-
+//      public static void main(String[] args) {
 //        int switchValue = 3;
 //
 //        switch(switchValue) {
@@ -34,7 +35,8 @@ public class section_5_ControlFlowAndStatements {
 //                System.out.println("Value was not 1 or 2");
 //                break;
 //        }
-
+//
+//    public static void main(String[] args) {
 //        char Letter = 'Z';
 //
 //        switch (Letter) {
@@ -58,59 +60,79 @@ public class section_5_ControlFlowAndStatements {
 //            default:
 //                System.out.println("Letter is not A,B,C,D or E");
 //        }
-
+//
+//        challange video 64
+//
 //        public static void main(String[] args) {
-        PrintDayOfWeek(3);
-        PrintDayWeek(3);
+//        PrintDayOfWeek(3);
+//        PrintDayWeek(3);
+//    }
+//
+//    public static void PrintDayOfWeek(int day) {
+//        switch (day) {
+//            case 1:
+//                System.out.println("Monday");
+//                break;
+//            case 2:
+//                System.out.println("Tuesday");
+//                break;
+//            case 3:
+//                System.out.println("Wednesday");
+//                break;
+//            case 4:
+//                System.out.println("Thursday");
+//                break;
+//            case 5:
+//                System.out.println("Friday");
+//                break;
+//            case 6:
+//                System.out.println("Saturday");
+//                break;
+//            case 7:
+//                System.out.println("Sunday");
+//                break;
+//            default:
+//                System.out.println("Invalid day");
+//
+//        }
+//    }
+//
+//        public static void PrintDayWeek( int day){
+//            if (day == 1) {
+//                System.out.println("Monday");
+//            } else if (day == 2) {
+//                System.out.println("Tuesday");
+//            } else if (day == 3) {
+//                System.out.println("Wednesday");
+//            } else if (day == 4) {
+//                System.out.println("Thursday");
+//            } else if (day == 5) {
+//                System.out.println("Friday");
+//            } else if (day == 6) {
+//                System.out.println("Saturday");
+//            } else if (day == 7) {
+//                System.out.println("Sunday");
+//
+//            } else {
+//                System.out.println("Invalid Day");
+//            }
+//        }
+//    }
+
+
+//    video 65
+
+    public static void main(String[] args) {
+        System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 2.0));
+        System.out.println("10,000 at 3% interest = " + calculateInterest(10000.0, 3.0));
+        System.out.println("10,000 at 4% interest = " + calculateInterest(10000.0, 4.0));
+        System.out.println("10,000 at 5% interest = " + calculateInterest(10000.0, 5.0));
+
+        for(i =0; termination; increment) {
     }
 
-    public static void PrintDayOfWeek(int day) {
-        switch (day) {
-            case 1:
-                System.out.println("Monday");
-                break;
-            case 2:
-                System.out.println("Tuesday");
-                break;
-            case 3:
-                System.out.println("Wednesday");
-                break;
-            case 4:
-                System.out.println("Thursday");
-                break;
-            case 5:
-                System.out.println("Friday");
-                break;
-            case 6:
-                System.out.println("Saturday");
-                break;
-            case 7:
-                System.out.println("Sunday");
-                break;
-            default:
-                System.out.println("Invalid day");
-
-        }
+}
+    public static double calculateInterest(double amount, double interestRate) {
+    return (amount * (interestRate/100));
     }
-
-        public static void PrintDayWeek( int day){
-            if (day == 1) {
-                System.out.println("Monday");
-            } else if (day == 2) {
-                System.out.println("Tuesday");
-            } else if (day == 3) {
-                System.out.println("Wednesday");
-            } else if (day == 4) {
-                System.out.println("Thursday");
-            } else if (day == 5) {
-                System.out.println("Friday");
-            } else if (day == 6) {
-                System.out.println("Saturday");
-            } else if (day == 7) {
-                System.out.println("Sunday");
-
-            } else {
-                System.out.println("Invalid Day");
-            }
-        }
-    }
+}

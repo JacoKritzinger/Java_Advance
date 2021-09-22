@@ -1,3 +1,5 @@
+package exercises;
+
 public class codingExercise12_NumberInWords {
     public static void printNumberInWord(int number){
         switch (number){

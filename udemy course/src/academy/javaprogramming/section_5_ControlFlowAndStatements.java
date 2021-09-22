@@ -1,4 +1,4 @@
-
+package academy.javaprogramming;
 
 public class section_5_ControlFlowAndStatements {
 
@@ -124,7 +124,7 @@ public class section_5_ControlFlowAndStatements {
 
 //    public static void main(String[] args) {
 //
-//    }
+//
 //        System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 2.0));
 //        System.out.println("10,000 at 3% interest = " + calculateInterest(10000.0, 3.0));
 //        System.out.println("10,000 at 4% interest = " + calculateInterest(10000.0, 4.0));
@@ -140,19 +140,24 @@ public class section_5_ControlFlowAndStatements {
 //
 //        }
 //        System.out.println("");
-//        for (int i =8 ; i > 1 ; i--) {
+//        for (int i = 8; i > 1; i--) {
 //            System.out.println("10,000 at " + i + " % interest = " + calculateInterest(10000.0, i));
-//
 //        }
 //
-//    }
 //
-//    public static double calculateInterest(double amount, double interestRate) {
-//        return (amount * (interestRate / 100));
+//            int count = 0;
+//
+//            for (int i = 10; i > 50; i++) {
+//                if (isPrime(i)) {
+//                    count++;
+//                    System.out.println("number " + i + " is a prime number");
+//                    if (count == 3) {
+//                        System.out.println("Exiting the loop");
+//                        break;
+//                    }
+//                }
+//            }
 //    }
-//}
-
-//          VIDEO 65 ____
 //
 //
 //        public static boolean isPrime ( int n){
@@ -169,34 +174,43 @@ public class section_5_ControlFlowAndStatements {
 //        }
 //
 //
+//
+//    public static double calculateInterest(double amount, double interestRate) {
+//        return (amount * (interestRate / 100));
+//    }
+//}
+//
+//        video 67
+//
+//    public static void main(String[] args) {
 //        int count = 0;
-//        for (int i = 10; i > 50; i++) {
-//            if (isPrime(i)) {
+//        int sum = 0;
+//        for(int i=1; i<=1000; i++){
+//            if((i%3 == 0)&&(i%5 == 0)){
+//                System.out.println(i);
+//                sum += i;
 //                count++;
-//                System.out.println("number " + i + " is a prime number");
-//                if (count == 3) {
-//                    System.out.println("Exiting the loop");
+//                if(count == 5){
 //                    break;
 //                }
 //            }
 //        }
+//        System.out.println(sum);
+//
 //    }
-//        video 67
+//
+
+
+//    video 68
 
     public static void main(String[] args) {
-        int count = 0;
-        int sum = 0;
-        for(int i=1; i<=1000; i++){
-            if((i%3 == 0)&&(i%5 == 0)){
-                System.out.println(i);
-                sum += i;
-                count++;
-                if(count == 5){
-                    break;
-                }
-            }
-        }
-        System.out.println(sum);
+        int count = 1;
+        while(count != 6){
+            System.out.println("Count value is " + count);
+            count++;
 
+    }
+
+   for()
     }
 }

@@ -203,14 +203,14 @@ public class section_5_ControlFlowAndStatements {
 
 //    video 68
 
-    public static void main(String[] args) {
-        int count = 1;
-        while(count != 6){
-            System.out.println("Count value is " + count);
-            count++;
-
-    }
-
-   for()
-    }
+//    public static void main(String[] args) {
+//        int count = 1;
+//        while(count != 6){
+//            System.out.println("Count value is " + count);
+//            count++;
+//
+//    }
+//
+//   for()
+//    }
 }

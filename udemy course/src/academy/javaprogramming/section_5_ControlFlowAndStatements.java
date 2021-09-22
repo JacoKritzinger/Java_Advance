@@ -122,17 +122,81 @@ public class section_5_ControlFlowAndStatements {
 
 //    video 65
 
+//    public static void main(String[] args) {
+//
+//    }
+//        System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 2.0));
+//        System.out.println("10,000 at 3% interest = " + calculateInterest(10000.0, 3.0));
+//        System.out.println("10,000 at 4% interest = " + calculateInterest(10000.0, 4.0));
+//        System.out.println("10,000 at 5% interest = " + calculateInterest(10000.0, 5.0));
+//
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println("loop " + i + " hello!");
+//
+//        }
+//
+//        for (int i = 2; i < 9; i++) {
+//            System.out.println("10,000 at " + i + " % interest = " + calculateInterest(10000.0, i));
+//
+//        }
+//        System.out.println("");
+//        for (int i =8 ; i > 1 ; i--) {
+//            System.out.println("10,000 at " + i + " % interest = " + calculateInterest(10000.0, i));
+//
+//        }
+//
+//    }
+//
+//    public static double calculateInterest(double amount, double interestRate) {
+//        return (amount * (interestRate / 100));
+//    }
+//}
+
+//          VIDEO 65 ____
+//
+//
+//        public static boolean isPrime ( int n){
+//
+//            if (n == 1) {
+//                return false;
+//            }
+//            for (int i = 2; i <= n / 2; i++) {
+//                if (n % 1 == 0) {
+//                    return false;
+//                }
+//            }
+//            return true;
+//        }
+//
+//
+//        int count = 0;
+//        for (int i = 10; i > 50; i++) {
+//            if (isPrime(i)) {
+//                count++;
+//                System.out.println("number " + i + " is a prime number");
+//                if (count == 3) {
+//                    System.out.println("Exiting the loop");
+//                    break;
+//                }
+//            }
+//        }
+//    }
+//        video 67
+
     public static void main(String[] args) {
-        System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 2.0));
-        System.out.println("10,000 at 3% interest = " + calculateInterest(10000.0, 3.0));
-        System.out.println("10,000 at 4% interest = " + calculateInterest(10000.0, 4.0));
-        System.out.println("10,000 at 5% interest = " + calculateInterest(10000.0, 5.0));
+        int count = 0;
+        int sum = 0;
+        for(int i=1; i<=1000; i++){
+            if((i%3 == 0)&&(i%5 == 0)){
+                System.out.println(i);
+                sum += i;
+                count++;
+                if(count == 5){
+                    break;
+                }
+            }
+        }
+        System.out.println(sum);
 
-        for(i =0; termination; increment) {
-    }
-
-}
-    public static double calculateInterest(double amount, double interestRate) {
-    return (amount * (interestRate/100));
     }
 }

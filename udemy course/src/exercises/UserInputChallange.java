@@ -9,22 +9,25 @@ public class UserInputChallange {
         int count = 0;
 
         while ((count >= 0) && (count < 11)) {
-            System.out.println("Enter number # " + count + 1);
-            boolean isAnInt = Scanner.hasNextInt();
+            int num = count + 1;
+            System.out.println("Enter number # " + num);
+            boolean isAnInt = scanner.hasNextInt();
 
-            if(isAnInt) {
-                int number = Scanner.nextInt();
+            if (isAnInt) {
+                int number = scanner.nextInt();
 
                 count++;
                 sum += number;
 
-                }
-            else{
+            } else {
                 System.out.println("Invalid number");
 
             }
 
-            scanner.nextLine();        }
+            scanner.nextLine();
+        }
+        System.out.println("Sum = " + sum);
+        scanner.close();
 
     }
 }

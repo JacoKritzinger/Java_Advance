@@ -28,14 +28,22 @@ public class Main {
 
 //        vid 80
 //
-        VipPerson person1 = new VipPerson();
-        System.out.println(person1.getName());
+//        VipPerson person1 = new VipPerson();
+//        System.out.println(person1.getName());
+//
+//        VipPerson person2 = new VipPerson("Bob", 25000.00);
+//        System.out.println(person2.getName());
+//
+//        VipPerson person3 = new VipPerson("Tom", 100.00, "Tom@email.com");
+//        System.out.println(person3.getName());
 
-        VipPerson person2 = new VipPerson("Bob", 25000.00);
-        System.out.println(person2.getName());
+//        vid 81
 
-        VipPerson person3 = new VipPerson("Tom", 100.00, "Tom@email.com");
-        System.out.println(person3.getName());
-
+//        Animal animal = new Animal("Animal", 1, 1, 5, 5);
+//
+//        Dog dog = new Dog("Yorkie", 8, 20, 2, 4, 1, 20, "long silkey");
+//        dog.eat();
+//
+//
     }
 }

@@ -1,4 +1,4 @@
-package exercise_section4and5;
+package Exercise_section4and5;
 
 public class LastDigitChecker {
     public static boolean hasSameLastDigit(int num1, int num2, int num3) {

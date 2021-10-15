@@ -1,4 +1,4 @@
-package exercise_section4and5;
+package Exercise_section4and5;
 
 public class SharedDigit {
     public static boolean hasSharedDigit(int num1, int num2){

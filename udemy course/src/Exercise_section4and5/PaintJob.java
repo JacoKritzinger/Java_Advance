@@ -1,4 +1,4 @@
-package exercise_section4and5;
+package Exercise_section4and5;
 
 public class PaintJob {
     public static int getBucketCount(double width, double height, double areaPerBucket, int extraBuckets) {

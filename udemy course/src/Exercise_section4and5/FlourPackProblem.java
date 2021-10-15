@@ -1,4 +1,4 @@
-package exercise_section4and5;
+package Exercise_section4and5;
 
 public class FlourPackProblem {
     public static boolean canPack(int bigCount, int smallCount, int goal) {

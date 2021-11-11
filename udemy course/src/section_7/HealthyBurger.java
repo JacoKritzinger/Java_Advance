@@ -1,5 +1,7 @@
 package section_7;
 
+import section_7.Hamburger;
+
 public class HealthyBurger extends Hamburger {
 
     private String healthyExtra1Name;

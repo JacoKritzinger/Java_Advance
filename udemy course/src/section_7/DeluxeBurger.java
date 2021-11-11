@@ -1,5 +1,7 @@
 package section_7;
 
+import section_7.Hamburger;
+
 public class DeluxeBurger extends Hamburger {
     public DeluxeBurger() {
         super("Deluxe", "Sausage & Bacon", 14.54, "White");

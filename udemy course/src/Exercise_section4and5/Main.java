@@ -1,6 +1,6 @@
 package academy.javaprogramming;
 
-public class Main {
+//public class Main {
 
 
 //      1.

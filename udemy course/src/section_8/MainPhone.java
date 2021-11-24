@@ -2,7 +2,7 @@ package section_8;
 
 import java.util.Scanner;
 
-public class PhoneMain {
+public class MainPhone {
     private static Scanner scanner = new Scanner(System.in);
     private static MobilePhone mobilePhone = new MobilePhone("0039 330 4404");
 

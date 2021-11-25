@@ -1,7 +1,5 @@
 package section_9;
 
-import section_7.Player;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
